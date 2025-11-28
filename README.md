@@ -9,7 +9,7 @@ This project implements an **asynchronous FIFO** buffer in Verilog. Unlike synch
 ---
 
 ## 📚 Concept
-![Async FIFO Concept](https://github.com/VLSI-Shubh/Asynchronous-FIFO/images/Async_FIFO_Block.png)
+![Async FIFO Concept](https://github.com/VLSI-Shubh/ASYNCHRONOUS-FIFO/images/Async_FIFO_Block.png)
 * **Asynchronous FIFO**: Data transfer between **independent clock domains** with different frequencies and phases
 * **Clock Domain Crossing**: Safe data transfer without metastability using proven synchronization techniques  
 * **Gray Code Pointers**: Only one bit changes at a time, minimizing metastability risk during pointer synchronization
