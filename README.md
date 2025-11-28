@@ -9,7 +9,7 @@ This project implements an **asynchronous FIFO** buffer in Verilog. Unlike synch
 ---
 
 ## 📚 Concept
-![Async FIFO Concept](https://github.com/VLSI-Shubh/Asynchronous-FIFO/blob/57c8f822078b9ce757e3494b557c8f54db703a5e/Async_FIFO%20Block.png)
+![Async FIFO Concept](https://github.com/VLSI-Shubh/Asynchronous-FIFO/images/Async_FIFO_Block.png)
 * **Asynchronous FIFO**: Data transfer between **independent clock domains** with different frequencies and phases
 * **Clock Domain Crossing**: Safe data transfer without metastability using proven synchronization techniques  
 * **Gray Code Pointers**: Only one bit changes at a time, minimizing metastability risk during pointer synchronization
@@ -91,7 +91,7 @@ When clock domains are asynchronous, signals crossing between domains can become
 ---
 
 ## 🧪 Output Waveform
-![Async FIFO Waveform](https://github.com/VLSI-Shubh/Asynchronous-FIFO/blob/57c8f822078b9ce757e3494b557c8f54db703a5e/Output.jpg)
+![Async FIFO Waveform](https://github.com/VLSI-Shubh/Asynchronous-FIFO/images/Output.jpg)
 
 ## 🧩 Synthesized Async FIFO Schematic
 
@@ -103,7 +103,7 @@ To demonstrate the synthesizability and complexity of the asynchronous FIFO desi
 - ✅ No latches or synthesis warnings observed, indicating **metastability-safe design practices**
 - ✅ Significantly more complex than synchronous FIFO due to CDC requirements
 
-📎 [View Async FIFO Schematic (PDF)](https://github.com/VLSI-Shubh/Asynchronous-FIFO/blob/57c8f822078b9ce757e3494b557c8f54db703a5e/Schematic.pdf)
+📎 [View Async FIFO Schematic (PDF)](https://github.com/VLSI-Shubh/Asynchronous-FIFO/images/Schematic.pdf)
 
 ## 📊 VCD/Waveform Analysis
 
@@ -237,4 +237,4 @@ Key achievements:
 
 ## ⚖️ License
 
-Open for educational and personal use under the [MIT License](https://github.com/VLSI-Shubh/Asynchronous-FIFO/blob/1fa4624912687b4869a7a0dabbdbe1900a002288/License.txt)
+Open for educational and personal use under the [MIT License](https://github.com/VLSI-Shubh/Asynchronous-FIFO/License.txt)
