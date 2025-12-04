@@ -1,0 +1,9 @@
+
+*.v  linguist-language=Verilog
+*.sv linguist-language=Verilog
+
+
+sim/*.py        linguist-vendored=true
+sim/uvm_env/*.py linguist-vendored=true
+
+sim_build/* linguist-vendored=true

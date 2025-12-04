@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1764802785" />
+    <testcase name="run_fifo_basic_uvm_test" classname="test_fifo_uvm" file="/home/shupadhy/sv_verif/ASYNC_FIFO_dv/sim/test_fifo_uvm.py" lineno="35" time="0.0031287670135498047" sim_time_ns="168.0" ratio_time="53695.27333688943" />
+  </testsuite>
+</testsuites>
