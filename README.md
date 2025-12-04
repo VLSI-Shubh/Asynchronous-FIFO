@@ -136,23 +136,17 @@ All UVM tests pass successfully.
 ## Repository Structure
 ```
 Asynchronous-FIFO/
-├── images/
-│   ├── Async-FIFO-Block.png
-│   ├── Output.jpg
-│   └── Schematic.pdf
-│
-├── src/
+├── images/               
+├── src/                   
 │   └── fifo_async.v
-│
-├── tb/
+├── tb/                    
 │   └── fifo_async_tb.v
-│
-├── sim/
+├── sim/                   
 │   ├── Makefile
-│   ├── results.xml
+│   ├── results.xml        # Test results and reports 
 │   ├── test_fifo_async_smoke.py
 │   ├── test_fifo_uvm.py
-│   ├── uvm_env/
+│   ├── uvm_env/           
 │   │   ├── fifo_item.py
 │   │   ├── fifo_driver.py
 │   │   ├── fifo_monitor.py
@@ -161,11 +155,12 @@ Asynchronous-FIFO/
 │   │   ├── fifo_agent.py
 │   │   ├── fifo_env.py
 │   │   └── fifo_tests.py
-│   └── sim_build/
-│
-├── run_sim.sh
-├── License.txt
-└── README.md
+│   └── sim_build/         # Verilator output and other auto-generated files 
+│       └── __pycache__/   # Python cache 
+├── run_sim.sh             # Script to run simulations
+├── License.txt          
+└── README.md              
+
 ```
 
 ## Simulation and Execution
@@ -184,6 +179,18 @@ Asynchronous-FIFO/
 ```bash
 ./run_sim.sh uvm
 ```
+## Verification Results
+
+### Cocotb Smoke Test Summary
+The smoke test suite validates basic FIFO functionality including write operations, read operations, flag behavior, clock-ratio variation, random patterns, and reset conditions.
+
+![Cocotb Smoke Test Output](images/Async-FIFO-Smoke-test-verification.png)
+
+### UVM Verification Summary
+The UVM environment (driver, monitor, sequencer, scoreboard, and environment hierarchy) validates FIFO behavior at a higher abstraction level.  
+The scoreboard confirms ordered write/read sequences across independent clock domains, ensuring CDC correctness.
+
+![UVM Verification Output](images/Async-FIFO-UVM-Verification.png)
 
 ## Tools
 - Icarus Verilog for RTL testbench simulation
