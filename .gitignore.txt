@@ -1,0 +1,16 @@
+# Ignore Verilator generated directories and files
+sim_build/
+obj_dir/
+
+# Ignore common build and Verilator generated files
+*.o
+*.d
+*.exe
+*.so
+*.dll
+*.dSYM/
+*.log
+*.vlt
+*.cpp
+*.h
+*.hh
