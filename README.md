@@ -137,7 +137,7 @@ All UVM tests pass successfully.
 ```
 Asynchronous-FIFO/
 ├── images/               
-├── src/                   
+├── rtl/                   
 │   └── fifo_async.v
 ├── tb/                    
 │   └── fifo_async_tb.v
