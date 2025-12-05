@@ -1,7 +1,9 @@
-![RTL Design](https://img.shields.io/badge/RTL%20Design-Passed-brightgreen)
-![Synthesis](https://img.shields.io/badge/Synthesis-Passed-brightgreen)
-![Functional Verification](https://img.shields.io/badge/Functional%20Verification-Passed-brightgreen)
-![UVM Verification](https://img.shields.io/badge/UVM%20Verification-Passed-brightgreen)
+<p align="left">
+  <img src="https://img.shields.io/badge/RTL%20Design-Completed-brightgreen" />
+  <img src="https://img.shields.io/badge/Functional%20Verification-Passed-brightgreen" />
+  <img src="https://img.shields.io/badge/PYUVM%20Verification-Passed-brightgreen" />
+  <img src="https://img.shields.io/badge/Synthesis-Completed-brightgreen" />
+</p>
 
 # Asynchronous FIFO
 
